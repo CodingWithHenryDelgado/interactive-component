@@ -41,6 +41,7 @@ four.addEventListener("click", function() {
 
 five.addEventListener("click", function() {
     removeActiveClass();
+    four.classList.add("active");
     rating = 5;
 })
 
